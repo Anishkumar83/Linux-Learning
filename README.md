@@ -1,27 +1,33 @@
 # Linux-Learning
-Basic linux commands with example
 
-What is UNIX?
+Basic Linux commands with examples.
 
-    Multiuser & Multitasking: Unix allows multiple users to use the system at the same time and 
-run multiple programs simultaneously without interfering with each other.
+---
 
-    Powerful Command-Line Interface: Unix is controlled mainly through commands, allowing
- users to manage files, processes, and system resources efficiently and combine commands to
- perform complex tasks.
+## What is UNIX?
 
-    Stable & Portable: Unix is known for its stability and reliability, and it can run on different
- hardware platforms, making it ideal for servers and long-running systems.
+### 1. Multiuser & Multitasking
+Unix allows multiple users to use the system at the same time and run multiple programs simultaneously without interfering with each other.
 
+### 2. Powerful Command-Line Interface
+Unix is controlled mainly through commands, allowing users to manage files, processes, and system resources efficiently and combine commands to perform complex tasks.
 
-Define Linux?
+### 3. Stable & Portable
+Unix is known for its stability and reliability, and it can run on different hardware platforms, making it ideal for servers and long-running systems.
 
-    Open source Operating system: Linux is free open source, which means anyone can view, modify,
- and distribute its source code.
-    Unix-like and secure: Linux is based on Unix principles and provides strong security through 
-user permissions,process isolation and access control.
-    Widely Used and Flexible: Linux runs on everything from servers and cloud platforms to desktops,
- mobile devices, and embedded systems, making it highly flexible and reliable.
+---
+
+## What is Linux?
+
+### 1. Open-Source Operating System
+Linux is free and open source, which means anyone can view, modify, and distribute its source code.
+
+### 2. Unix-like and Secure
+Linux is based on Unix principles and provides strong security through user permissions, process isolation, and access control.
+
+### 3. Widely Used and Flexible
+Linux runs on everything from servers and cloud platforms to desktops, mobile devices, and embedded systems, making it highly flexible and reliable.
+
 
 Linux Basic commands:
 
@@ -86,17 +92,16 @@ rm -r dir -> we cannot delete directories which are all not empty for that we us
 
 rm -rf -> force delete
 
-Directory hierarchy overview
------------------------------------------------------------------------------------------------------------
-/: Root directory, the top level of the file system.
-/home: User home directories.
-/bin: Essential binary executables.
-/sbin: System administration binaries.
-/etc: Configuration files.
-/var: Variable data (logs, spool files).
-/usr: User programs and data.
-/lib: Shared libraries.
-/tmp: Temporary files.
-/opt: Third-party applications.
-
+## Directory Hierarchy Overview
+------
+- `/` : Root directory, the top level of the file system  
+- `/home` : User home directories  
+- `/bin` : Essential binary executables  
+- `/sbin` : System administration binaries  
+- `/etc` : Configuration files  
+- `/var` : Variable data (logs, spool files)  
+- `/usr` : User programs and data  
+- `/lib` : Shared libraries  
+- `/tmp` : Temporary files  
+- `/opt` : Third-party applications  
 
