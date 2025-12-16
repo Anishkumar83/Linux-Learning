@@ -30,7 +30,9 @@ Linux runs on everything from servers and cloud platforms to desktops, mobile de
 
 
 Linux Basic commands:
+------------------------------------------------
 
+### Syntax
 commands [options] [arguments]
 
 pwd - present working directory
@@ -93,7 +95,6 @@ rm -r dir -> we cannot delete directories which are all not empty for that we us
 rm -rf -> force delete
 
 ## Directory Hierarchy Overview
-------
 - `/` : Root directory, the top level of the file system  
 - `/home` : User home directories  
 - `/bin` : Essential binary executables  
