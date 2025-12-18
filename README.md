@@ -78,7 +78,7 @@ Creating directories in linux
 -------------------------------------------------------------------------------------------------------
 mkdir -> it creates a directory
 
-mkdir file1 file2 file3 -> it ceeates a multiple directories
+mkdir file1 file2 file3 -> it creates a multiple directories
 
 mkdir -p parent/child/grandchild -> it creates a nested directories in a single command
 
